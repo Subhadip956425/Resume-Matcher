@@ -1,0 +1,34 @@
+{
+  "resumeId": 1,
+  "name": "John Doe",
+  "salary": null,
+  "yearOfExperience": 5.0,
+  "resumeSkills": [
+    "Java", "Spring Boot", "React", "MySQL", "PostgreSQL",
+    "Docker", "Git", "REST API", "Microservices", "AWS"
+  ],
+  "matchingJobs": [
+    {
+      "jobId": 1,
+      "role": "Backend Developer",
+      "aboutRole": "Should have strong hands-on experience with Core Java Spring Boot microservices and REST API development.",
+      "salary": "61087 - 104364",
+      "yearOfExperience": 7.0,
+      "skillsAnalysis": [
+        { "skill": "Java", "presentInResume": true },
+        { "skill": "Spring Boot", "presentInResume": true },
+        { "skill": "React", "presentInResume": true },
+        { "skill": "Microservices", "presentInResume": true },
+        { "skill": "Kafka", "presentInResume": false },
+        { "skill": "Docker", "presentInResume": true },
+        { "skill": "Kubernetes", "presentInResume": false },
+        { "skill": "REST API", "presentInResume": true },
+        { "skill": "Python", "presentInResume": false },
+        { "skill": "Azure", "presentInResume": false }
+      ],
+      "matchingScore": 60.0,
+      "matchedCount": 6,
+      "totalJdSkills": 10
+    }
+  ]
+}
